@@ -576,3 +576,105 @@ header .navbar.animate {
     box-shadow: 0px 8px 56px rgb(15 80 100 / 5%);
     padding: .5rem 1rem;
 }
+
+/* publications */
+
+#publications {
+    min-height: auto;
+}
+
+#publications .publications-container {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+#publications .publications-container * {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+#publications .publications-container p {
+    color: var(--text-color);
+    opacity: 0.9;
+}
+
+#publications .card {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+#publications .card-body {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+#publications .publications-container ul,
+#publications .publications-container ol,
+#publications .publications-container li {
+    background-color: transparent !important;
+    border: none !important;
+    list-style-position: outside;
+    margin-left: 1.5em;
+}
+
+#publications .publications-container li {
+    margin-bottom: 1em;
+    color: var(--text-color);
+    opacity: 0.9;
+}
+
+#publications .publications-container a {
+    color: var(--text-link-color);
+    text-decoration: none;
+}
+
+#publications .publications-container a:hover {
+    opacity: 0.8;
+}
+
+#publications .container,
+#publications .row,
+#publications .col,
+#publications .section,
+#publications .section * {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+#publications h3 {
+    color: var(--text-secondary-color) !important;
+}
+
+#publications .publications-container .date {
+    color: var(--text-color) !important;
+    font-weight: normal;
+    opacity: 0.9;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+
+#publications .publications-container .date:hover {
+    color: var(--primary-color) !important;
+    opacity: 0.8;
+}
+
+/* Make sure content sections maintain transparency */
+#about, #experience, #education, #projects, #achievements, #contact {
+    background-color: transparent !important;
+}
+
+#about *, #experience *, #education *, #projects *, #achievements *, #contact * {
+    background-color: transparent !important;
+}
+
+/* Keep text colors while maintaining transparency */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color) !important;
+}
+
+p, span, div {
+    color: var(--text-color);
+}
